@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Remove scrollbar completely */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  overflow-x: hidden; /* remove bottom scrollbar */
+  overflow-y: scroll; /* keeps layout stable */
+  scrollbar-width: none; /* Firefox */
+  margin: 0;
+  padding:0;
+}
+.light-mode{
+  background-color:rgb(255, 255,255);
+  color:rgb(0,0,0);
+
+}
+.dark-mode{
+  background-color: black;
+  color:white;
+  
+}
